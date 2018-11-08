@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email         = '1029769711@qq.com'
 
   spec.summary       = 'Upload symbols to Bugtags'
-  # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-bugtags"
+  spec.homepage      = "https://github.com/wliu6/fastlane-plugin-bugtags"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
