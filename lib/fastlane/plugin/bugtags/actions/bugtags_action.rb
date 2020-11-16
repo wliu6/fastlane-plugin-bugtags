@@ -8,7 +8,7 @@ module Fastlane
         UI.message("The bugtags plugin is working!")
         command = []
         command << "curl"
-        command << "\"https://work.bugtags.com/api/apps/symbols/upload\""
+        command << "\"https://work.bugtags.cn/api/apps/symbols/upload\""
         command << "--write-out \"%{http_code}\" --silent"
         command += handle_params(params)
         command += handle_plistinfo(params)
